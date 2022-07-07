@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2022-05-18 12:22:08" Creator="Researcher" Comments="" ID="16a0bce0a1e043e7f2abd2762155d8f5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2022-07-07 14:58:39" Creator="Researcher" Comments="" ID="b6915fbbb84d7b4b77b34379f3676659">
   <Library_General_Settings>
     <Package_File_Name>plasmapper_lib_PL_Inficon_VGC</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -44,7 +44,7 @@ Features
       <Copyright/>
       <Packager>plasmapper</Packager>
       <URL>https://github.com/plasmapper/inficon-vgc-labview</URL>
-      <Release_Notes/>
+      <Release_Notes>Initial release.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -319,7 +319,7 @@ Features
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>603426C79309F030A0E33AADB24686B4</GUID>
+      <GUID>B83A9E3D837D4647C1A31DD0914B95AE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +382,7 @@ Features
         <Path>Public\Configure\Other</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3186AF39A62AEFBC075D2DEBF77ADE2D</GUID>
+      <GUID>FBE62CE32E42DF244467054CE10E1C24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -445,7 +445,7 @@ Features
         <Path>Public\Action-Status\Start Continuous Output.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F1B279B4765E677321AFB0653F60C91</GUID>
+      <GUID>A58523FE103BBA33FCE2B54D87C8CA0B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -508,7 +508,7 @@ Features
         <Path>Public\Data\Read Measured Values.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C73CAB400551A3FFCC54FE57F0D28805</GUID>
+      <GUID>E1D82476B9E0FA8ED2E6C294AFF41B4C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -781,7 +781,7 @@ Features
         <Path>Public\Utility\Test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68F0C1E642AE8821537E4E8902F6FACF</GUID>
+      <GUID>A6F07174310B4333DD6E7C5CF45070B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1138,7 +1138,7 @@ Features
         <Path>Public\Configure\Channels\Configure Gauge Activation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8436B0233BA8B34CB0D327F9821FAF2</GUID>
+      <GUID>B8A94082A48CEA96AA95E3FED8504B5F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1383,7 +1383,7 @@ Features
         <Path>Public\Configure\Display\Configure Display Bar Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5BB4FBBB08B04973FD23D9E8E0A0CD56</GUID>
+      <GUID>0CF605C0CC46EF0500EDAA7F7ECF78DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1656,7 +1656,7 @@ Features
         <Path>Public\Configure\Other\Read Pirani Range Extension Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2F48844C33A71A99B2F9D396300492D</GUID>
+      <GUID>3BF4696E858BE82AC70CF7B3818C299F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1803,7 +1803,7 @@ Features
         <Path>Public\Utility\Test\Test Flash.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5529C13E4616872EEC8A1EEF589FC9A0</GUID>
+      <GUID>67AE1604923C12C0DBA1137701A826BF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
