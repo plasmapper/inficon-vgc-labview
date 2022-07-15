@@ -6,6 +6,9 @@ Tested on Inficon VGC502.
 ## Requirements
 LabVIEW 2015 and higher.
 
+## Installation
+[VIPM package](https://www.vipm.io/package/plasmapper_lib_pl_inficon_vgc/)
+
 ## Features
 1. Read/configure channel, display, communication, relay, logger and other settings.
 2. Read separate and combined measured values.
