@@ -1,6 +1,4 @@
-# Inficon VGC Series Library for LabVIEW
-LabVIEW instrument driver for Inficon VGC series vacuum gauge controllers.
-
+# LabVIEW Instrument Driver for Inficon VGC Series Vacuum Gauge Controllers
 Tested on Inficon VGC502.
 
 ## Requirements
