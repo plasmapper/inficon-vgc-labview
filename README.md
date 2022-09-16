@@ -22,5 +22,5 @@ LabVIEW 2015 and higher.
 Example VI that demonstrates all library features.
 
 ## Links
-[VGC50x Vacuum Gauge Controller](https://www.inficon.com/en/products/vgc50x)
+[VGC50x Vacuum Gauge Controller](https://www.inficon.com/en/products/vgc50x)  
 [VGC083 Vacuum Gauge Controller](https://www.inficon.com/en/products/vgc083)
