@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2022-07-07 14:58:39" Creator="Researcher" Comments="" ID="b6915fbbb84d7b4b77b34379f3676659">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-04-04 17:51:50" Modified_Date="2024-09-22 23:32:53" Creator="Researcher" Comments="" ID="3b62e8b16e789aa0b18fafa2cf31b5cd">
   <Library_General_Settings>
     <Package_File_Name>plasmapper_lib_PL_Inficon_VGC</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build</Library_Output_Folder>
@@ -44,7 +44,8 @@ Features
       <Copyright/>
       <Packager>plasmapper</Packager>
       <URL>https://github.com/plasmapper/inficon-vgc-labview</URL>
-      <Release_Notes>Initial release.</Release_Notes>
+      <Release_Notes>Fixed
+- Non-ASCII letter in a VI name (issue #1).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -319,7 +320,7 @@ Features
         <Path>Public\Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B83A9E3D837D4647C1A31DD0914B95AE</GUID>
+      <GUID>8E03A009650E76BD48AE1CF95829B059</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +383,7 @@ Features
         <Path>Public\Configure\Other</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FBE62CE32E42DF244467054CE10E1C24</GUID>
+      <GUID>6A28A4B977E2FF9958A051FDB7CE6948</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -445,7 +446,7 @@ Features
         <Path>Public\Action-Status\Start Continuous Output.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A58523FE103BBA33FCE2B54D87C8CA0B</GUID>
+      <GUID>9766A39979B8DA3BD383148AB8BDD626</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -466,20 +467,6 @@ Features
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Public\Data</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Read Ñontinuously Measured Values.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Public\Data\Read Ñontinuously Measured Values.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -508,7 +495,21 @@ Features
         <Path>Public\Data\Read Measured Values.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E1D82476B9E0FA8ED2E6C294AFF41B4C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Read Continuously Measured Values.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Public\Data\Read Continuously Measured Values.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>089CD4EBC47CF16A2A5B50EA4337BE07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -781,7 +782,7 @@ Features
         <Path>Public\Utility\Test</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6F07174310B4333DD6E7C5CF45070B6</GUID>
+      <GUID>A972BD4EDDF827A35E0C7468ED41D70E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1138,7 +1139,7 @@ Features
         <Path>Public\Configure\Channels\Configure Gauge Activation.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B8A94082A48CEA96AA95E3FED8504B5F</GUID>
+      <GUID>183E47022C080D9B5809E6FDFB0A1327</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1383,7 +1384,7 @@ Features
         <Path>Public\Configure\Display\Configure Display Bar Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CF605C0CC46EF0500EDAA7F7ECF78DE</GUID>
+      <GUID>442B5E7EF26CE385B9079AD596939E08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1656,7 +1657,7 @@ Features
         <Path>Public\Configure\Other\Read Pirani Range Extension Configuration.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BF4696E858BE82AC70CF7B3818C299F</GUID>
+      <GUID>7D5BB6BFDCE1D7AFBAE8F24E71AF3E44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1803,7 +1804,7 @@ Features
         <Path>Public\Utility\Test\Test Flash.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67AE1604923C12C0DBA1137701A826BF</GUID>
+      <GUID>5D13FDE241D59D396789D7080202E92C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
